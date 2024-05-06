@@ -3,7 +3,7 @@ on:
   workflow_dispatch: {}
   schedule:
     # Run Mon-Fri, every 5 mins from 7am to 6pm CEST
-    - cron: '*/5 5-19 * * 1-5'
+    - cron: '*/5 5-22 * * 1-5'
 
 jobs:
   run:
